@@ -1,10 +1,16 @@
 from pymongo import MongoClient
-from decouple import config
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # Configuramos la cadena de conexión con las credenciales reales:
-username = config('USERNAME')
-password = config('PASSWORD')
-cluster_url = config('CLUSTER_URL')
+user_name = os.getenv('USER')
+password = os.getenv('PASSWORD')
+cluster_url = os.getenv('CLUSTER_URL')
 
-connection_string = f"mongodb+srv://{username}:{password}@{cluster_url}"
+connection_string = f"mongodb+srv://{user_name}:{password}@{cluster_url}"
 client = MongoClient(connection_string)
+
+print(user_name)
