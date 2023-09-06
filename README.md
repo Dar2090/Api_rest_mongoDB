@@ -5,7 +5,7 @@
 El objetivo es construir una API que sirva de backend de una plataforma web de gestión de una cadena de negocios. Las rutas que se deben construir deberán servir a una pantalla específica de Dashboard de la plataforma.
  
 <p align="center">
-<img src = "_src/dashboard.png" height = 600>
+<img src = "_src/dashboard.png" height = 500>
 </p>
 
 Los datos son todos ficticios y se encuentran en una base de datos de MongoDB. La base de datos es estática y contiene datos hasta el 11 de junio de 2023. La base es accesible solo con las credenciales de MongoDB.
@@ -136,11 +136,11 @@ y para usuarios Linux y Mac:
 http://localhost/docs
 
 <p align="center">
-<img src = "_src/docs.png" height = 600>
+<img src = "_src/docs.png" height = 500>
 </p>
 
 <p align="center">
-<img src = "_src/docs_1.png" height = 600>
+<img src = "_src/docs_1.png" height = 500>
 </p>
 
 
