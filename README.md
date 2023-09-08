@@ -58,7 +58,7 @@ http://127.0.0.1:8000/resumen_mes/{negocio}/{mes_anio}
 
 y para usuarios Linux y Mac: 
 
-http://localhost/resumen_mes/{negocio}/{mes_anio}
+http://localhost:8000/resumen_mes/{negocio}/{mes_anio}
 
 Donde {negocio} sera sustituido por el nombre del negocio a consultar y {mes_anio} por la fecha.
 
@@ -76,7 +76,7 @@ http://127.0.0.1:8000/cobros/{negocio}/{mes_anio}
 
 y para usuarios Linux y Mac: 
 
-http://localhost/cobros/{negocio}/{mes_anio}
+http://localhost:8000/cobros/{negocio}/{mes_anio}
 
 Donde {negocio} sera sustituido por el nombre del negocio a consultar y {mes_anio} por la fecha.
 
@@ -95,7 +95,7 @@ http://127.0.0.1:8000/cobros_resumen/{negocio}/{mes_anio}
 
 y para usuarios Linux y Mac: 
 
-http://localhost/cobros_resumen/{negocio}/{mes_anio}
+http://localhost:8000/cobros_resumen/{negocio}/{mes_anio}
 
 Donde {negocio} sera sustituido por el nombre del negocio a consultar y {mes_anio} por la fecha.
 
@@ -112,7 +112,7 @@ http://127.0.0.1:8000/porcentaje_cobro/{negocio}/{mes_anio}
 
 y para usuarios Linux y Mac: 
 
-http://localhost/porcentaje_cobro/{negocio}/{mes_anio}
+http://localhost:8000/porcentaje_cobro/{negocio}/{mes_anio}
 
 Donde {negocio} sera sustituido por el nombre del negocio a consultar y {mes_anio} por la fecha.
 
@@ -133,7 +133,7 @@ http://127.0.0.1:8000/docs
 
 y para usuarios Linux y Mac: 
 
-http://localhost/docs
+http://localhost:8000/docs
 
 <p align="center">
 <img src = "_src/docs.png" height = 500>
